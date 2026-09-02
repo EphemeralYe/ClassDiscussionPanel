@@ -1,0 +1,121 @@
+﻿body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+}
+
+.wrap {
+  max-width: 850px;
+  margin: 30px auto;
+  padding: 0 15px;
+}
+
+nav {
+  background: #2c3e50;
+  padding: 12px 20px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 14px;
+}
+a[href="logout.php"] {
+    color:red;
+}
+nav .brand {
+  font-weight: bold;
+}
+nav span {
+  color: white;
+}
+
+.card {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  color: #2c3e50;
+}
+
+label {
+  font-weight: bold;
+}
+input, textarea, select {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 14px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button, .btn {
+  background: #2980b9;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn-green {
+  background: #27ae60;
+}
+.btn-red {
+  background: #e74c3c;
+}
+
+.msg-ok {
+  background: #d4edda;
+  color: #155724;
+  padding: 10px;
+  margin-bottom: 12px;
+}
+.msg-err {
+  background: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  margin-bottom: 12px;
+}
+
+.badge {
+  padding: 2px 8px;
+  color: white;
+  background: #999;
+}
+.badge.not {
+  background: #e67e22;
+}
+.badge.solved {
+  background: #27ae60;
+}
+.badge.topic {
+  background: #3498db;
+}
+.badge.teacher-badge {
+  background: #8e44ad;
+}
+
+.doubt-row {
+  border-left: 4px solid #3498db;
+  padding-left: 12px;
+}
+.doubt-row.solved {
+  border-left-color: #27ae60;
+}
+small {
+  color: #888;
+}
+
+.narrow {
+  max-width: 420px;
+  margin: auto;
+}
+
+.answer {
+  border-left: 4px solid #27ae60;
+  background: #f9f9f9;
+  padding: 12px;
+  margin-bottom: 10px;
+}
